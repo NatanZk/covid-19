@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#titulo{
+    font-family: sans-serif;
+    color: #5c7480;
+    margin-left: 6%;
+}
+#subtitulo{
+    font-family: sans-serif;
+    color: #5c7480;
+    margin-left: 14%; 
+
+}
+fieldset{
+    border: 0;
+}
+
+body{
+    font-family: sans-serif;
+    font-size: 1em;
+    color: #5c7480;
+    margin-left: 35%;
+    margin-top: 5%;
+    justify-content: center;
+}
+
+#nome,#sobrenome,#usuario,#senha{
+    width: 26em;
+    height: 25px;
+    margin-left: 4%;
+}
+#relato,#desc{
+    margin-left: 4%; 
+}
+
+input,select,textarea,button{
+   border-radius: 5px;
+
+}
+
+fieldset.grupo{
+    margin-right: 1em;
+}
+
+strong{
+    margin-left: 4%;
+}
+
+.botao{
+    font-size: 1.2em;
+    background-color: #5c7480;
+    border: 0;
+    margin-bottom: 1em;
+    color: #ffffff;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgb(0,0,0,0.2);
+    text-shadow: 1px 1px 1px rgb(0,0,0,0.5);
+    position: absolute;
+    top: 88%;
+    left: 50.5%;
+    margin-right: -50%;
+    transform: translate(-50%,-50%);
+}
+.botao:hover{
+    background: #ccbbff;
+    box-shadow: inset 2px 2px 2px rgb(0,0,0,0.2);
+    text-shadow: none;
+}
+.botao, select{
+    cursor: pointer;
+}
+#check {
+    display: inline-block;
+}
